@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Yellowtail&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Yellowtail&display=swap'); 파일이 무거워 질 수도 있어 주석처리 */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import "reset.css";
 @import "variables.css";
@@ -6,14 +6,20 @@
 
 /* Components */
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
 
 
 /* Screens */
 @import "screens/login.css";
+@import "screens/friends.css";
 
 
 body {
     /* font-family: "Yellowtail", cursive; */
     font-family: "Open Sans", sans-serif;
+    color: #2e363e;
+    /* height : 1000vh; */
 }
 
